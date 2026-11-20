@@ -1,666 +1,1213 @@
 {
-  "title": "GTA 6 cheat codes? The GTA V codes rumoured to carry over",
-  "disclaimer": "Rockstar Games has not confirmed any Grand Theft Auto VI cheat codes. The entries below are Grand Theft Auto V single-player (Story Mode) cheats, compiled from IGN and GameSpot and cross-checked against each other. They are not confirmed to work in GTA 6. In GTA V they temporarily disable achievements and trophies for the current session (Rockstar Support). They do not work in GTA Online. This compilation is not affiliated with, endorsed by, or associated with Rockstar Games or Take-Two Interactive. Rockstar Support does not publish a public list of the codes themselves.",
-  "scope": "Single-player Story Mode cheat codes only: PC typed words, in-game phone numbers, and PlayStation / Xbox button combos where a cited source gives them. No hacks, trainers, mod menus, money glitches, downloads, or online/multiplayer exploits.",
-  "counts": {
-    "included": 33,
-    "dropped": 5,
-    "note": "Instagram and some round-ups say '35 codes'. This file includes 33 cheats that IGN and GameSpot both confirm at least in part. Three extras often used to reach 35 (BMX, the JRTALENT Director Mode code, and IGN's 'random explosion' number) could not be cross-checked and were dropped."
-  },
-  "sources": {
-    "rockstar_support": {
-      "role": "Official policy only — Rockstar Support does not publish a public list of GTA V cheat codes. These articles confirm that using cheats temporarily disables achievements, that saving is still allowed, and that unofficial codes are unsupported.",
-      "urls": [
-        {
-          "id": "rs-achievements",
-          "title": "Information about saving and achievements while using GTA V cheat codes",
-          "url": "https://support.rockstargames.com/articles/4ewFY12QOE4O7V1uWDEekt",
-          "updated": "2024-04-28",
-          "use": "Saving is allowed when cheats are enabled; achievements are temporarily disabled. Reloading a save or rebooting resets cheats. Some cheats are unavailable in certain situations ('Cheat Denied'). Starting a mission disables off-mission cheats."
-        },
-        {
-          "id": "rs-issues",
-          "title": "Issues after using Cheat Codes",
-          "url": "https://support.rockstargames.com/articles/6sa5xpe2WSuHzecJut4tAZ/issues-after-using-cheat-codes",
-          "updated": "2024-01-09",
-          "use": "Rockstar says that unless a code was given in-game or in the manual, it is unofficial and cannot be supported. Recommends not saving after using cheats."
-        }
-      ]
-    },
-    "code_lists": [
-      {
-        "id": "ign-wiki",
-        "title": "All GTA 5 Cheat Codes and Secrets For PC and Console — IGN",
-        "url": "https://www.ign.com/wikis/gta-5/All_GTA_5_Cheat_Codes_and_Secrets_For_PC_and_Console",
-        "updated": "2026-06-23",
-        "use": "Primary code list for this compilation, including PlayStation and Xbox combos, PC words, phone numbers, and how-to-enter steps."
-      },
-      {
-        "id": "gamespot",
-        "title": "GTA 5 Cheats And Secrets For PS5, Xbox, And PC — GameSpot",
-        "url": "https://www.gamespot.com/articles/gta-5-cheats-and-secrets-for-ps4-xbox-one-and-pc/1100-6414789/",
-        "updated": "2023-07-05",
-        "use": "Cross-check for every included code. Used as the sole source for a few PC words and phone numbers that IGN lists only as button combos, and for Super Jump's phone number."
-      },
-      {
-        "id": "ign-article",
-        "title": "Full List of GTA 5 Cheats on PC, PlayStation, and Xbox — IGN",
-        "url": "https://www.ign.com/articles/gta-5-cheats-pc-playstation-xbox",
-        "updated": "2024-06-12",
-        "use": "Overview article that points to the IGN wiki list. Does not itself tabulate every code."
-      }
+  "title": "GTA 6 (Grand Theft Auto VI) cheat codes, sourced",
+  "checked": "2026-11-21, Australia/Brisbane (AEST, UTC+10)",
+  "game_release": "2026-11-19",
+  "confirmed_rule": "Confirmed = the same input published by 2 or more reputable outlets (or by Rockstar). Anything else = TBC.",
+  "total_cheats": {
+    "value": 61,
+    "sources": [
+      "eurogamer",
+      "gamesradar",
+      "vice",
+      "radiotimes",
+      "dexerto (X post 18 Nov)"
     ],
-    "prompting_post": {
-      "id": "instagram",
-      "title": "Instagram post claiming 35 circulating 'GTA 6' cheat codes",
-      "url": "https://www.instagram.com/p/Df7yp01keMq/",
-      "use": "The post that prompted this compilation. It states that Rockstar has not officially confirmed any GTA 6 codes, and that the rumoured list includes existing GTA V codes such as PAINKILLER, BUZZOFF and COMET. It is not used as a source for any code, combo or phone number."
-    }
+    "categories_per_eurogamer": {
+      "Player": 10,
+      "Combat": 11,
+      "Spawn Vehicle": 21,
+      "Environment": 3,
+      "Screen Filter": 16
+    },
+    "note": "No outlet we checked disputes 61."
   },
+  "codes_published_so_far": {
+    "value": 19,
+    "note": "19 inputs confirmed by 2+ outlets in this file; GamesRadar+ (updated 20 Nov) lists the same 19; Gaming Route reports 19 of 61 as of 20 Nov."
+  },
+  "unlock": "Cheats only work after you finish the main story (Eurogamer, GameSpot, GamesRadar+, Polygon, PC Gamer, Dexerto). Each cheat also has its own challenge; progress made before the ending counts (GameSpot, Polygon, PC Gamer). Codes appear in Progress > Cheats once unlocked (Eurogamer, Polygon, GamesRadar+).",
+  "side_effects": "Using a cheat disables saving and trophies/achievements for that session (Eurogamer, Polygon, GameSpot, GamesRadar+, PC Gamer).",
+  "rockstar_official": "We found no cheat list published by Rockstar on its websites (checked 21 Nov 2026). The codes are shown in-game in the Progress > Cheats menu, which outlets screenshot (credited 'Rockstar').",
   "how_to_enter": {
-    "general": [
-      "Story Mode / single-player only. These codes do not work in GTA Online.",
-      "Using any cheat temporarily disables achievements and trophies for the current session (Rockstar Support). Reloading a save or restarting the game turns that restriction off.",
-      "Do not pause the game while entering a button combo. Use the D-pad for directions, and enter the sequence fairly quickly. A confirmation appears above the map if it worked."
-    ],
-    "pc": "Press the tilde key (~; on some UK keyboards, ¬) to open the cheat console, type the PC word in capitals, and press Enter.",
-    "phone": "Open the in-game phone (Up arrow or Up on the D-pad), open Contacts, open the keypad, dial the 1-999 number and call it. You can press * to redial the last number (IGN).",
-    "playstation": "Enter the PlayStation button combo during gameplay with a DualShock or DualSense controller. Sequences are the same on PS3, PS4 and PS5 according to IGN.",
-    "xbox": "Enter the Xbox button combo during gameplay. Sequences are the same on Xbox 360, Xbox One and Xbox Series X|S according to IGN."
+    "open_phone": "Press Up on the D-pad",
+    "hold": "Hold L1 + R1 (PS5) / LB + RB (Xbox) on the phone home screen",
+    "then": "Enter the D-pad input",
+    "button_notes": "Eurogamer: 'hold both shoulder buttons'. GameSpot, GamesRadar+, Polygon: hold L1 + R1. Dexerto and PC Gamer word it 'hold L1 and press R1'. Polygon says it only tested PS5 and assumes LB + RB on Xbox.",
+    "sources": [
+      "https://www.eurogamer.net/all-gta-6-cheats",
+      "https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story",
+      "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+      "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+      "https://www.dexerto.com/wikis/gta-6/cheat-codes/",
+      "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+    ]
   },
-  "dropped": [
+  "confirmed": [
     {
-      "effect": "Spawn BMX",
-      "pc_code": "BANDIT",
-      "phone": "1-999-226-348",
-      "reason": "Listed on IGN (PC word BANDIT, phone 1-999-226-348, and PlayStation/Xbox combos) but not on GameSpot. Left out because it could not be cross-checked.",
-      "listed_by": [
-        "ign-wiki"
-      ]
+      "cheat": "$250,000",
+      "category": "Player",
+      "effect": "Instantly gives you $250,000",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↑ → ↓ ← ↑ ← ↓ →",
+        "words": "Up, Right, Down, Left, Up, Left, Down, Right"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Finish the story (GameSpot, GamesRadar+, Dexerto, VICE); Polygon and Radio Times say 'Make $250,000 from fenced goods'; Eurogamer and PC Gamer: TBA",
+      "requires_story_complete": true,
+      "outlets": [
+        "Eurogamer",
+        "Dexerto",
+        "Polygon",
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer",
+        "VICE"
+      ],
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.dexerto.com/wikis/gta-6/cheat-codes/",
+        "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://www.vice.com/en/article/gta-6-cheat-codes-list/"
+      ],
+      "disagreement": "Unlock condition differs between outlets. Input string agrees everywhere."
     },
     {
-      "effect": "Director Mode (typed/phone cheat)",
-      "pc_code": "JRTALENT",
-      "phone": "1-999-5782-5368",
-      "reason": "GameSpot lists JRTALENT / 1-999-5782-5368 with no button combo. IGN does not list this as a cheat code; it documents Director Mode as an Interaction-menu option (M / Touchpad / View), which is not a cheat code. Left out of the code list.",
-      "listed_by": [
-        "gamespot"
-      ]
+      "cheat": "Drunk",
+      "category": "Player",
+      "effect": "Makes you and your partner drunk",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↑ ← → ↑ ↑ ← → ↑ ← →",
+        "words": "Up, Left, Right, Up, Up, Left, Right, Up, Left, Right"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Spend $2,500 on alcohol",
+      "requires_story_complete": true,
+      "outlets": [
+        "PC Gamer",
+        "Polygon",
+        "GamesRadar+",
+        "Dexerto"
+      ],
+      "source_urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.dexerto.com/wikis/gta-6/cheat-codes/"
+      ],
+      "disagreement": "Eurogamer and GameSpot have no input listed yet."
     },
     {
-      "effect": "Random explosion",
-      "pc_code": null,
-      "phone": "1-999-367-3767",
-      "reason": "Appears only on IGN's phone list, with no PC word and no button combo. GameSpot does not list it. Left out because it could not be cross-checked.",
-      "listed_by": [
-        "ign-wiki"
-      ]
+      "cheat": "Raise Heat Level",
+      "category": "Player",
+      "effect": "Raises your heat level across the map",
+      "status": "confirmed",
+      "input": {
+        "arrows": "← ↓ → ↓ ↑ ↓ ↑",
+        "words": "Left, Down, Right, Down, Up, Down, Up"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Lose a 3-star Wanted Level 25 times (Dexerto, GameSpot, GamesRadar+, VICE, Radio Times); Eurogamer, PC Gamer, Polygon: TBA",
+      "requires_story_complete": true,
+      "outlets": [
+        "Eurogamer",
+        "Dexerto",
+        "Polygon",
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer",
+        "VICE"
+      ],
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.dexerto.com/wikis/gta-6/cheat-codes/",
+        "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://www.vice.com/en/article/gta-6-cheat-codes-list/"
+      ],
+      "disagreement": null
     },
     {
-      "effect": "Infinite money / money cheats, trainers, mod menus, GTA Online exploits",
-      "pc_code": null,
-      "phone": null,
-      "reason": "IGN states there is no infinite money cheat and that Rockstar wants players to earn money in Story Mode. GameSpot's list also has no money cheat. These are not official single-player cheat codes and were never in scope.",
-      "listed_by": []
+      "cheat": "Raise Wanted Level",
+      "category": "Player",
+      "effect": "Raises your Wanted Level across the map",
+      "status": "confirmed",
+      "input": {
+        "arrows": "← ↓ → ↓ ↑ → ↑",
+        "words": "Left, Down, Right, Down, Up, Right, Up"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Lose a 3-star Wanted Level 50 times",
+      "requires_story_complete": true,
+      "outlets": [
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer",
+        "VICE",
+        "Radio Times"
+      ],
+      "source_urls": [
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://www.vice.com/en/article/gta-6-cheat-codes-list/",
+        "https://www.radiotimes.com/technology/gaming/gta-6-cheats-cheat-codes/"
+      ],
+      "disagreement": "Dexerto lists an 8-input string: Left, Down, Right, Down, Up, Up, Right, Up. Five outlets agree on the 7-input version."
     },
     {
-      "effect": "Any GTA 6-only or 'confirmed GTA 6' codes",
-      "pc_code": null,
-      "phone": null,
-      "reason": "Rockstar has not confirmed any Grand Theft Auto VI cheat codes. The Instagram post that prompted this list says the circulating 'GTA 6' codes (including PAINKILLER, BUZZOFF and COMET) are existing GTA V codes.",
-      "listed_by": []
+      "cheat": "Unlimited Focus",
+      "category": "Player",
+      "effect": "Focus never runs out",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ ↑ ↑ ↓ ↑ ↓ ↑ ↓ ↑ →",
+        "words": "Down, Up, Up, Down, Up, Down, Up, Down, Up, Right"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Finish the story (GameSpot, GamesRadar+, Dexerto, VICE)",
+      "requires_story_complete": true,
+      "outlets": [
+        "Eurogamer",
+        "Polygon",
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer",
+        "VICE"
+      ],
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://www.vice.com/en/article/gta-6-cheat-codes-list/"
+      ],
+      "disagreement": "Dexerto lists Down, Up, Up, Down, Up, Down, Up, Up, Down, Right (8th and 9th inputs swapped). Six outlets agree on the version shown."
+    },
+    {
+      "cheat": "Body Armor",
+      "category": "Player",
+      "effect": "Adds body armor to your loadout",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ ↑ ← ↑ ↑ ↑ ↑ ↑ ↓ ↓",
+        "words": "Down, Up, Left, Up, Up, Up, Up, Up, Down, Down"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Complete 100 workouts",
+      "requires_story_complete": true,
+      "outlets": [
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer",
+        "VICE"
+      ],
+      "source_urls": [
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://www.vice.com/en/article/gta-6-cheat-codes-list/"
+      ],
+      "disagreement": null
+    },
+    {
+      "cheat": "Max Ammo",
+      "category": "Combat",
+      "effect": "Fills all ammo to maximum",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ ↑ → ↓ ← ← ↑ ↑ ↓ ←",
+        "words": "Down, Up, Right, Down, Left, Left, Up, Up, Down, Left"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Win 25 bronze medals or higher at shooting ranges (PC Gamer says 20)",
+      "requires_story_complete": true,
+      "outlets": [
+        "Dexerto",
+        "Polygon",
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer"
+      ],
+      "source_urls": [
+        "https://www.dexerto.com/wikis/gta-6/cheat-codes/",
+        "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+      ],
+      "disagreement": "Radio Times appears to swap the Max Ammo and Infinite Ammo strings and gives No Reload's string for Max Ammo."
+    },
+    {
+      "cheat": "Infinite Ammo",
+      "category": "Combat",
+      "effect": "Ammo never runs out",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ ↑ → ↓ ← ← ↑ ↓ ↓ ↓",
+        "words": "Down, Up, Right, Down, Left, Left, Up, Down, Down, Down"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Win 25 silver medals or higher at shooting ranges",
+      "requires_story_complete": true,
+      "outlets": [
+        "Dexerto",
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer"
+      ],
+      "source_urls": [
+        "https://www.dexerto.com/wikis/gta-6/cheat-codes/",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+      ],
+      "disagreement": "See Max Ammo note on Radio Times."
+    },
+    {
+      "cheat": "No Reload",
+      "category": "Combat",
+      "effect": "Ammo never runs out and no reloading",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ ↑ → ↓ ← ← ↑ ↓ ↓ ↑",
+        "words": "Down, Up, Right, Down, Left, Left, Up, Down, Down, Up"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Win 25 gold medals at shooting ranges",
+      "requires_story_complete": true,
+      "outlets": [
+        "Dexerto",
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer"
+      ],
+      "source_urls": [
+        "https://www.dexerto.com/wikis/gta-6/cheat-codes/",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+      ],
+      "disagreement": null
+    },
+    {
+      "cheat": "Attack Force",
+      "category": "Combat",
+      "effect": "Bullets and melee attacks launch targets on impact",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ ↑ ← ← → ↓ ↓ ↑ ↓",
+        "words": "Down, Up, Left, Left, Right, Down, Down, Up, Down"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Finish the story (GameSpot, GamesRadar+, VICE)",
+      "requires_story_complete": true,
+      "outlets": [
+        "Eurogamer",
+        "Polygon",
+        "GamesRadar+",
+        "PC Gamer",
+        "VICE"
+      ],
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://www.vice.com/en/article/gta-6-cheat-codes-list/"
+      ],
+      "disagreement": "GameSpot lists an 8-input string missing one Left: Down, Up, Left, Right, Down, Down, Up, Down. Five outlets agree on the 9-input version."
+    },
+    {
+      "cheat": "Exploding Balls",
+      "category": "Combat",
+      "effect": "Sports balls explode on impact",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ ↑ ← ← → ↓ ↓ ↑ →",
+        "words": "Down, Up, Left, Left, Right, Down, Down, Up, Right"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Hit 20 enemies with explosive damage (GameSpot, GamesRadar+, VICE, Radio Times)",
+      "requires_story_complete": true,
+      "outlets": [
+        "Eurogamer",
+        "Polygon",
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer",
+        "VICE"
+      ],
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://www.vice.com/en/article/gta-6-cheat-codes-list/"
+      ],
+      "disagreement": null
+    },
+    {
+      "cheat": "Vehicle Force",
+      "category": "Combat",
+      "effect": "Vehicle collisions launch targets",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ ↑ ← ← → ↓ ← ↑ ↓",
+        "words": "Down, Up, Left, Left, Right, Down, Left, Up, Down"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Kill 25 enemies with a vehicle",
+      "requires_story_complete": true,
+      "outlets": [
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer",
+        "Radio Times"
+      ],
+      "source_urls": [
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://www.radiotimes.com/technology/gaming/gta-6-cheats-cheat-codes/"
+      ],
+      "disagreement": null
+    },
+    {
+      "cheat": "Maibatsu Boomazoom",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Maibatsu Boomazoom",
+      "status": "confirmed",
+      "input": {
+        "arrows": "← ↑ → ↓ ← ← ↑ ←",
+        "words": "Left, Up, Right, Down, Left, Left, Up, Left"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Complete 5 shopping challenges",
+      "requires_story_complete": true,
+      "outlets": [
+        "Dexerto",
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer"
+      ],
+      "source_urls": [
+        "https://www.dexerto.com/wikis/gta-6/cheat-codes/",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+      ],
+      "disagreement": "Polygon and Eurogamer: TBD/TBA."
+    },
+    {
+      "cheat": "MTL Pumper",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns an MTL Pumper",
+      "status": "confirmed",
+      "input": {
+        "arrows": "← ↑ → ↓ ← → → ↑",
+        "words": "Left, Up, Right, Down, Left, Right, Right, Up"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Discover the MTL Pumper in the Progress menu",
+      "requires_story_complete": true,
+      "outlets": [
+        "Polygon",
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer"
+      ],
+      "source_urls": [
+        "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+      ],
+      "disagreement": null
+    },
+    {
+      "cheat": "HVY Bulldozer",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns an HVY Bulldozer",
+      "status": "confirmed",
+      "input": {
+        "arrows": "← ↑ → ↓ ← → → ↓",
+        "words": "Left, Up, Right, Down, Left, Right, Right, Down"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Discover the HVY Bulldozer in the Progress menu",
+      "requires_story_complete": true,
+      "outlets": [
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer",
+        "VICE"
+      ],
+      "source_urls": [
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://www.vice.com/en/article/gta-6-cheat-codes-list/"
+      ],
+      "disagreement": null
+    },
+    {
+      "cheat": "Cycle Weather",
+      "category": "Environment",
+      "effect": "Changes the weather",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ → ↑ ↓ → ↑ →",
+        "words": "Down, Right, Up, Down, Right, Up, Right"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Reveal the entire map (Eurogamer, Polygon, GamesRadar+, Radio Times); finish the story (GameSpot, Dexerto)",
+      "requires_story_complete": true,
+      "outlets": [
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer",
+        "Radio Times"
+      ],
+      "source_urls": [
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://www.radiotimes.com/technology/gaming/gta-6-cheats-cheat-codes/"
+      ],
+      "disagreement": "Dexerto lists an 8-input string ending Right, Right. Unlock condition also differs."
+    },
+    {
+      "cheat": "Cataclysm",
+      "category": "Screen Filter",
+      "effect": "Fills the world with murky smoke",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ ↓ ↑ → → ↑ ← ← → →",
+        "words": "Down, Down, Up, Right, Right, Up, Left, Left, Right, Right"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Discover Martha's Vamos in the Progress menu",
+      "requires_story_complete": true,
+      "outlets": [
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer"
+      ],
+      "source_urls": [
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+      ],
+      "disagreement": null
+    },
+    {
+      "cheat": "Dollhouse",
+      "category": "Screen Filter",
+      "effect": "Vivid filter with a narrow aspect ratio",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ ↓ ↑ → → ↑ ← ← ↓ →",
+        "words": "Down, Down, Up, Right, Right, Up, Left, Left, Down, Right"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Spend 8 hours with your partner (Polygon, GameSpot, GamesRadar+)",
+      "requires_story_complete": true,
+      "outlets": [
+        "Eurogamer",
+        "Polygon",
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer"
+      ],
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+      ],
+      "disagreement": null
+    },
+    {
+      "cheat": "Faded Glory",
+      "category": "Screen Filter",
+      "effect": "Colour CRT TV filter",
+      "status": "confirmed",
+      "input": {
+        "arrows": "↓ ↓ ↑ → → ↑ ← ← ← →",
+        "words": "Down, Down, Up, Right, Right, Up, Left, Left, Left, Right"
+      },
+      "entry": "Phone (D-pad Up), hold L1+R1 / LB+RB, enter input",
+      "unlock": "Rob 50 stores with your partner",
+      "requires_story_complete": true,
+      "outlets": [
+        "GameSpot",
+        "GamesRadar+",
+        "PC Gamer"
+      ],
+      "source_urls": [
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+      ],
+      "disagreement": null
     }
   ],
-  "cheats": [
+  "tbc": [
     {
-      "id": "invincibility",
-      "category": "player",
-      "effect": "Invincibility for 5 minutes",
-      "pc_code": "PAINKILLER",
-      "phone": "1-999-724-654-5537",
-      "playstation": "Right, X, Right, Left, Right, R1, Right, Left, X, Triangle",
-      "xbox": "Right, A, Right, Left, Right, RB, Right, Left, A, Y",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "No Fall Damage",
+      "category": "Player",
+      "effect": "Immune to fall damage",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Survive a freefall from 40 feet 20 times",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "Both sources agree on the digits 7246545537; hyphenation differs (IGN 724-654-5537, GameSpot 7246-545-537).",
-        "The 5-minute duration is from GameSpot ('Invincibility (For 5 Minutes)'); re-enter to renew. The cited IGN wiki page does not state a duration."
-      ],
-      "phone_digits": "19997246545537"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "max-health-armor",
-      "category": "player",
-      "effect": "Max health and armor",
-      "pc_code": "TURTLE",
-      "phone": "1-999-887-853",
-      "playstation": "Circle, L1, Triangle, R2, X, Square, Circle, Right, Square, L1, L1, L1",
-      "xbox": "B, LB, Y, RT, A, X, B, Right, X, LB, LB, LB",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Parachute",
+      "category": "Player",
+      "effect": "Adds a parachute to your loadout",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete 50 skydives or base jumps from 300 feet or higher",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [],
-      "phone_digits": "1999887853"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "recharge-special",
-      "category": "player",
-      "effect": "Recharge special ability",
-      "pc_code": "POWERUP",
-      "phone": "1-999-769-3787",
-      "playstation": "X, X, Square, R1, L1, X, Right, Left, X",
-      "xbox": "A, A, X, RB, LB, A, Right, Left, A",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Repair Vehicle",
+      "category": "Player",
+      "effect": "Fully repairs your current vehicle",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Get 1st place in 10 races at Gellhorn Raceway, Thrillbilly Mud Club and Boone Speedway",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [],
-      "phone_digits": "19997693787"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "raise-wanted",
-      "category": "wanted",
-      "effect": "Raise wanted level",
-      "pc_code": "FUGITIVE",
-      "phone": "1-999-3844-8483",
-      "playstation": "R1, R1, Circle, R2, Left, Right, Left, Right, Left, Right",
-      "xbox": "RB, RB, B, RT, Left, Right, Left, Right, Left, Right",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Unlimited Nitrous",
+      "category": "Player",
+      "effect": "Nitrous and fuel never run out",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete 50 stunt jumps",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [],
-      "phone_digits": "199938448483"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "lower-wanted",
-      "category": "wanted",
-      "effect": "Lower wanted level",
-      "pc_code": "LAWYERUP",
-      "phone": "1-999-5299-3787",
-      "playstation": "R1, R1, Circle, R2, Right, Left, Right, Left, Right, Left",
-      "xbox": "RB, RB, B, RT, Right, Left, Right, Left, Right, Left",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "All Explosive Weapons",
+      "category": "Combat",
+      "effect": "Adds all explosive weapons with full ammo",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Throw 100 grenades",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [],
-      "phone_digits": "199952993787"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "fast-run",
-      "category": "player",
-      "effect": "Fast run",
-      "pc_code": "CATCHME",
-      "phone": "1-999-228-8463",
-      "playstation": "Triangle, Left, Right, Right, L2, L1, Square",
-      "xbox": "Y, Left, Right, Right, LT, LB, X",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Incendiary Ammo",
+      "category": "Combat",
+      "effect": "All ammo is incendiary",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Burn 100 enemies with fire damage",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "IGN lists 1-999-228-8463 and GameSpot lists 1-999-2288-463; the digits match (2288463).",
-        "Those digits do not match the phone-keypad spelling of CATCHME (2282463). This file uses the number both sources printed, not a keypad 'correction'."
-      ],
-      "phone_digits": "19992288463"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "fast-swim",
-      "category": "player",
-      "effect": "Fast swim",
-      "pc_code": "GOTGILLS",
-      "phone": "1-999-4684-4557",
-      "playstation": "Left, Left, L1, Right, Right, R2, Left, L2, Right",
-      "xbox": "Left, Left, LB, Right, Right, RT, Left, LT, Right",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Exploding Bottles",
+      "category": "Combat",
+      "effect": "All bottles explode when damaged",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Throw 100 molotovs",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "IGN's 'best cheats' blurb hyphenates this as 1-999-468-44557; the digits are the same as the phone-list entry 1-999-4684-4557."
-      ],
-      "phone_digits": "199946844557"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "super-jump",
-      "category": "player",
-      "effect": "Super jump",
-      "pc_code": "HOPTOIT",
-      "phone": "1-999-467-8648",
-      "playstation": "Left, Left, Triangle, Triangle, Right, Right, Left, Right, Square, R1, R2",
-      "xbox": "Left, Left, Y, Y, Right, Right, Left, Right, X, RB, RT",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Explosive Shotgun",
+      "category": "Combat",
+      "effect": "Adds a Mason & Keen Shortstraw that fires explosive shells",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Hit 100 enemies with explosive damage",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "PC word and button combos are on both IGN and GameSpot. The phone number is from GameSpot only; IGN's phone list omits Super Jump."
-      ],
-      "phone_digits": "19994678648"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "parachute",
-      "category": "player",
-      "effect": "Give parachute",
-      "pc_code": "SKYDIVE",
-      "phone": "1-999-759-3483",
-      "playstation": "Left, Right, L1, L2, R1, R2, R2, Left, Left, Right, L1",
-      "xbox": "Left, Right, LB, LT, RB, RT, RT, Left, Left, Right, LB",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Hauners H-AT",
+      "category": "Combat",
+      "effect": "Adds a Hauners H-AT to your loadout",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Blow up 100 vehicles",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [],
-      "phone_digits": "19997593483"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "skyfall",
-      "category": "player",
-      "effect": "Skyfall — drop the player from high altitude",
-      "pc_code": "SKYFALL",
-      "phone": "1-999-759-3255",
-      "playstation": "L1, L2, R1, R2, Left, Right, Left, Right, L1, L2, R1, R2, Left, Right, Left, Right",
-      "xbox": "LB, LT, RB, RT, Left, Right, Left, Right, LB, LT, RB, RT, Left, Right, Left, Right",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Interstate Ambulance",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns an Interstate Ambulance",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Discover the Interstate Ambulance in the Progress menu",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [],
-      "phone_digits": "19997593255"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "drunk",
-      "category": "player",
-      "effect": "Drunk mode",
-      "pc_code": "LIQUOR",
-      "phone": "1-999-547-861",
-      "playstation": "Triangle, Right, Right, Left, Right, Square, Circle, Left",
-      "xbox": "Y, Right, Right, Left, Right, X, B, Left",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Airboat 09",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns an Airboat 09",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete 5 survival challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "Both sources print 1-999-547-861. That does not match the keypad spelling of LIQUOR (547867). This file uses the sourced number, not a keypad 'correction'."
-      ],
-      "phone_digits": "1999547861"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "weapons",
-      "category": "weapons",
-      "effect": "Weapons and extra ammo (pistol, sawed-off shotgun, SMG, assault rifle, sniper rifle, grenade, RPG, knife)",
-      "pc_code": "TOOLUP",
-      "phone": "1-999-866-587",
-      "playstation": "Triangle, R2, Left, L1, X, Right, Triangle, Down, Square, L1, L1, L1",
-      "xbox": "Y, RT, Left, LB, A, Right, Y, Down, X, LB, LB, LB",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Bravado Banshee",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Bravado Banshee",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete all combat challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "PlayStation and Xbox combos are on both IGN and GameSpot. The PC word TOOLUP and phone number 1-999-866-587 are from GameSpot only; IGN lists the button cheat as 'Give Weapons' but omits the PC word and phone number."
-      ],
-      "phone_digits": "1999866587"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "explosive-bullets",
-      "category": "weapons",
-      "effect": "Explosive bullets",
-      "pc_code": "HIGHEX",
-      "phone": "1-999-444-439",
-      "playstation": "Right, Square, X, Left, R1, R2, Left, Right, Right, L1, L1, L1",
-      "xbox": "Right, X, A, Left, RB, RT, Left, Right, Right, LB, LB, LB",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Tuff BMX",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Tuff BMX",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete 5 fitness challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "IGN labels this 'Bang Bang (Explosive Bullets)'."
-      ],
-      "phone_digits": "1999444439"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "incendiary-bullets",
-      "category": "weapons",
-      "effect": "Incendiary / flaming bullets",
-      "pc_code": "INCENDIARY",
-      "phone": "1-999-462-363-4279",
-      "playstation": "L1, R1, Square, R1, Left, R2, R1, Left, Square, Right, L1, L1",
-      "xbox": "LB, RB, X, RB, Left, RT, RB, Left, X, Right, LB, LB",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Nagasaki Carbon RS",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Nagasaki Carbon RS",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete all exploration challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "IGN prints the full number 1-999-462-363-4279 (keypad spelling of INCENDIARY). GameSpot writes 1-999-462-INCENDIARY but its numeric form 1-999-363-4279 drops the leading 462. This file uses IGN's complete digit string, which matches GameSpot's word form."
-      ],
-      "phone_digits": "19994623634279"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "explosive-melee",
-      "category": "weapons",
-      "effect": "Explosive melee attacks",
-      "pc_code": "HOTHANDS",
-      "phone": "1-999-4684-2637",
-      "playstation": "Right, Left, X, Triangle, R1, Circle, Circle, Circle, L2",
-      "xbox": "Right, Left, A, Y, RB, B, B, B, LT",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "'65 Vapid Dominator",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a '65 Vapid Dominator",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete all fitness challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [],
-      "phone_digits": "199946842637"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "moon-gravity",
-      "category": "world",
-      "effect": "Moon gravity",
-      "pc_code": "FLOATER",
-      "phone": "1-999-356-2837",
-      "playstation": "Left, Left, L1, R1, L1, Right, Left, L1, Left",
-      "xbox": "Left, Left, LB, RB, LB, Right, Left, LB, Left",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Progen Emerus",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Progen Emerus",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete all vehicle challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [],
-      "phone_digits": "19993562837"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "slow-motion",
-      "category": "world",
-      "effect": "Slow motion",
-      "pc_code": "SLOWMO",
-      "phone": "1-999-756-966",
-      "playstation": "Triangle, Left, Right, Right, Square, R2, R1",
-      "xbox": "Y, Left, Right, Right, X, RT, RB",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Inflatable Flamingo",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns an Inflatable Flamingo",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Destroy 50 cocaine flamingos",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "IGN's phone list prints this twice with different hyphenation (1-999-756-966 and 1-999-7569-66); the digits are the same."
-      ],
-      "phone_digits": "1999756966"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "slow-motion-aim",
-      "category": "world",
-      "effect": "Slow-motion aim",
-      "pc_code": "DEADEYE",
-      "phone": "1-999-332-3393",
-      "playstation": "Square, L2, R1, Triangle, Left, Square, L2, Right, X",
-      "xbox": "X, LT, RB, Y, Left, X, LT, Right, A",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Vapid Stanier G2 Taxi",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Vapid Stanier G2 Taxi",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete 5 sports challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "IGN 1-999-332-3393 and GameSpot 1-999-3323-393 are the same digits (3323393)."
-      ],
-      "phone_digits": "19993323393"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "change-weather",
-      "category": "world",
-      "effect": "Change weather (enter multiple times to cycle)",
-      "pc_code": "MAKEITRAIN",
-      "phone": "1-999-625-348-7246",
-      "playstation": "R2, X, L1, L1, L2, L2, L2, Square",
-      "xbox": "RT, A, LB, LB, LT, LT, LT, X",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Hauners P-996 Lazer",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Hauners P-996 Lazer",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete all challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "IGN prints the full number 1-999-625-348-7246 (keypad spelling of MAKEITRAIN). GameSpot writes 1-999-625-MAKEITRAIN but its numeric form 1-999-348-7246 drops the leading 625. This file uses IGN's complete digit string, which matches GameSpot's word form."
-      ],
-      "phone_digits": "19996253487246"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "slippery-cars",
-      "category": "world",
-      "effect": "Slippery / slidey cars",
-      "pc_code": "SNOWDAY",
-      "phone": "1-999-7669-329",
-      "playstation": "Triangle, R1, R1, Left, R1, L1, R2, L1",
-      "xbox": "Y, RB, RB, Left, RB, LB, RT, LB",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Lapwing Mallard",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Lapwing Mallard",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete 5 vehicle challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "Phone numbers disagree by one digit. GameSpot: 1-999-7669-329 (7669329), which matches the keypad spelling of SNOWDAY. IGN: 1-999-766-932 (766932), which looks one digit short.",
-        "PC word and button combos agree on both sources. The phone field uses GameSpot's number; do not treat IGN's shorter form as confirmed."
-      ],
-      "phone_digits": "19997669329"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-buzzard",
-      "category": "vehicles",
-      "effect": "Spawn Buzzard attack helicopter",
-      "pc_code": "BUZZOFF",
-      "phone": "1-999-289-9633",
-      "playstation": "Circle, Circle, L1, Circle, Circle, Circle, L1, L2, R1, Triangle, Circle, Triangle",
-      "xbox": "B, B, LB, B, B, B, LB, LT, RB, Y, B, Y",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Brimstone Golfer",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Brimstone Golfer",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete all sports challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "IGN 1-999-289-9633 and GameSpot 1-999-2899-633 are the same digits (2899633)."
-      ],
-      "phone_digits": "19992899633"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-stunt-plane",
-      "category": "vehicles",
-      "effect": "Spawn stunt plane",
-      "pc_code": "BARNSTORM",
-      "phone": "1-999-227-678-676",
-      "playstation": "Circle, Right, L1, L2, Left, R1, L1, L1, Left, Left, X, Triangle",
-      "xbox": "B, Right, LB, LT, Left, RB, LB, LB, Left, Left, A, Y",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Hauners Rhino Tank",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Hauners Rhino Tank",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete all survival challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "IGN 1-999-2276-78676 and GameSpot 1-999-227-678-676 are the same digits (227678676)."
-      ],
-      "phone_digits": "1999227678676"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-duster",
-      "category": "vehicles",
-      "effect": "Spawn Duster crop plane",
-      "pc_code": "FLYSPRAY",
-      "phone": "1-999-3597-7729",
-      "playstation": "Right, Left, R1, R1, R1, Left, Triangle, Triangle, X, Circle, L1, L1",
-      "xbox": "Right, Left, RB, RB, RB, Left, Y, Y, A, B, LB, LB",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Maibatsu Sanchez",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Maibatsu Sanchez",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete 5 criminal challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "Button combos are on both IGN and GameSpot. The PC word FLYSPRAY and phone number 1-999-3597-7729 are from GameSpot only; IGN lists 'Spawn Duster' buttons but omits the PC word and phone number."
-      ],
-      "phone_digits": "199935977729"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-dodo",
-      "category": "vehicles",
-      "effect": "Spawn Dodo seaplane",
-      "pc_code": "EXTINCT",
-      "phone": "1-999-398-4628",
-      "playstation": null,
-      "xbox": null,
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Nagasaki Sea Sparrow",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Nagasaki Sea Sparrow",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete 5 exploration challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "Phone number is on both IGN and GameSpot. The PC word EXTINCT is from GameSpot only; IGN's PC list omits it. Neither source gives a PlayStation or Xbox button combo (later-version spawn; phone/PC only)."
-      ],
-      "phone_digits": "19993984628"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-kraken",
-      "category": "vehicles",
-      "effect": "Spawn Kraken sub",
-      "pc_code": "BUBBLES",
-      "phone": "1-999-282-2537",
-      "playstation": null,
-      "xbox": null,
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Speeder 700 GT",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Speeder 700 GT",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete 5 combat challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "Phone number is on both IGN and GameSpot. The PC word BUBBLES is from GameSpot only; IGN's PC list omits it. Neither source gives a PlayStation or Xbox button combo."
-      ],
-      "phone_digits": "19992822537"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-duke",
-      "category": "vehicles",
-      "effect": "Spawn Duke O'Death",
-      "pc_code": "DEATHCAR",
-      "phone": "1-999-3328-4227",
-      "playstation": null,
-      "xbox": null,
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Truffade Thrax",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Truffade Thrax",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete all shopping challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "Phone number is on both IGN and GameSpot. The PC word DEATHCAR is from GameSpot only; IGN's PC list omits it. Neither source gives a PlayStation or Xbox button combo."
-      ],
-      "phone_digits": "199933284227"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-comet",
-      "category": "vehicles",
-      "effect": "Spawn Comet sports car",
-      "pc_code": "COMET",
-      "phone": "1-999-266-38",
-      "playstation": "R1, Circle, R2, Right, L1, L2, X, X, Square, R1",
-      "xbox": "RB, B, RT, Right, LB, LT, A, A, X, RB",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Western Zombie Bobber",
+      "category": "Spawn Vehicle",
+      "effect": "Spawns a Western Zombie Bobber",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete all criminal challenges",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [],
-      "phone_digits": "199926638"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-rapid-gt",
-      "category": "vehicles",
-      "effect": "Spawn Rapid GT sports car",
-      "pc_code": "RAPIDGT",
-      "phone": "1-999-727-4348",
-      "playstation": null,
-      "xbox": null,
-      "playstation_ign": "R2, L1, Circle, Right, L1, R1, Right, Left, Circle, R2",
-      "xbox_ign": "RT, LB, B, Right, LB, RB, Right, Left, B, RT",
-      "playstation_gamespot": "R2, R2, L1, Circle, Right, L1, R1, Right, Left, Circle, R2",
-      "xbox_gamespot": "RT, RT, LB, B, Right, LB, RB, Right, Left, B, RT",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Move Time Forward",
+      "category": "Environment",
+      "effect": "Moves the time of day forward",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Find 10 collectible watches",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "PC word and phone number agree on both sources.",
-        "Button combos disagree: GameSpot starts with an extra R2 (PlayStation) / RT (Xbox) that IGN does not have. This file does not pick a winner; both sequences are stored in playstation_ign / playstation_gamespot and xbox_ign / xbox_gamespot."
-      ],
-      "phone_digits": "19997274348"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-limo",
-      "category": "vehicles",
-      "effect": "Spawn limo",
-      "pc_code": "VINEWOOD",
-      "phone": "1-999-846-39663",
-      "playstation": "R2, Right, L2, Left, Left, R1, L1, Circle, Right",
-      "xbox": "RT, Right, LT, Left, Left, RB, LB, B, Right",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Pause Time of Day",
+      "category": "Environment",
+      "effect": "Pauses the time of day",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Find 20 collectible watches",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "IGN 1-999-846-39663 and GameSpot 1-999-8463-9663 are the same digits (84639663)."
-      ],
-      "phone_digits": "199984639663"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-trashmaster",
-      "category": "vehicles",
-      "effect": "Spawn Trashmaster",
-      "pc_code": "TRASHED",
-      "phone": "1-999-8727-433",
-      "playstation": "Circle, R1, Circle, R1, Left, Left, R1, L1, Circle, Right",
-      "xbox": "B, RB, B, RB, Left, Left, RB, LB, B, Right",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Golden Hour",
+      "category": "Screen Filter",
+      "effect": "Golden filter with widescreen aspect ratio",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Spend 4 hours holding hands",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "Phone numbers disagree by one digit. GameSpot: 1-999-8727-433 (8727433), which matches the keypad spelling of TRASHED. IGN: 1-999-872-433 (872433), which looks one digit short.",
-        "PC word and button combos agree on both sources. The phone field uses GameSpot's number; do not treat IGN's shorter form as confirmed."
-      ],
-      "phone_digits": "19998727433"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-caddy",
-      "category": "vehicles",
-      "effect": "Spawn Caddy golf cart",
-      "pc_code": "HOLEIN1",
-      "phone": "1-999-4653-461",
-      "playstation": "Circle, L1, Left, R1, L2, X, R1, L1, Circle, X",
-      "xbox": "B, LB, Left, RB, LT, A, RB, LB, B, A",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Powdered Sugar",
+      "category": "Screen Filter",
+      "effect": "Turns the world white with sparkling highlights",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Scan all space debris with WAiNK",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "Button combos are on both IGN and GameSpot (IGN: 'Spawn Caddy'). The PC word HOLEIN1 and phone number 1-999-4653-461 are from GameSpot only; IGN omits the PC word and phone number."
-      ],
-      "phone_digits": "19994653461"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-sanchez",
-      "category": "vehicles",
-      "effect": "Spawn Sanchez dirt bike",
-      "pc_code": "OFFROAD",
-      "phone": "1-999-633-7623",
-      "playstation": "Circle, X, L1, Circle, Circle, L1, Circle, R1, R2, L2, L1, L1",
-      "xbox": "B, A, LB, B, B, LB, B, RB, RT, LT, LB, LB",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Pinhole",
+      "category": "Screen Filter",
+      "effect": "Pinhole camera filter",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Clear 25 gang operations with your partner",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [
-        "GameSpot's phone line is typo-broken as '1-999- [1-999-633-7623]'; the numeric form matches IGN's 1-999-633-7623."
-      ],
-      "phone_digits": "19996337623"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     },
     {
-      "id": "spawn-pcj",
-      "category": "vehicles",
-      "effect": "Spawn PCJ-600 motorcycle",
-      "pc_code": "ROCKET",
-      "phone": "1-999-762-538",
-      "playstation": "R1, Right, Left, Right, R2, Left, Right, Square, Right, L2, L1, L1",
-      "xbox": "RB, Right, Left, Right, RT, Left, Right, X, Right, LT, LB, LB",
-      "sources": [
-        "ign-wiki",
-        "gamespot"
+      "cheat": "Neon Jungle",
+      "category": "Screen Filter",
+      "effect": "Neon highlights on the world",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Discover all 16 Girlypop Vehicles",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
       ],
-      "notes": [],
-      "phone_digits": "1999762538"
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
+    },
+    {
+      "cheat": "Yesteryear",
+      "category": "Screen Filter",
+      "effect": "Black and white CRT TV filter",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Discover the Ridgway (spelt 'Ridgeway' by Dexerto and Polygon)",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
+      ],
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
+    },
+    {
+      "cheat": "Videotape",
+      "category": "Screen Filter",
+      "effect": "Videotape-style filter",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete 50 activities with your partner",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
+      ],
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
+    },
+    {
+      "cheat": "Dark Mirror",
+      "category": "Screen Filter",
+      "effect": "Flips the world upside down and turns it black",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Make $500,000 selling vehicles",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
+      ],
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
+    },
+    {
+      "cheat": "Migraine",
+      "category": "Screen Filter",
+      "effect": "Blurred, distorted filter",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Survive 6 minutes with a 6-star Wanted Level",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
+      ],
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
+    },
+    {
+      "cheat": "Bubblegum",
+      "category": "Screen Filter",
+      "effect": "Turns the world purple and yellow with sparkling highlights",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Find all 24 collectible cards for the Vice City Flamingos",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
+      ],
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
+    },
+    {
+      "cheat": "Fast Forward",
+      "category": "Screen Filter",
+      "effect": "Motion blur and faster clouds",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Complete 50 meditations",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
+      ],
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
+    },
+    {
+      "cheat": "Fisheye",
+      "category": "Screen Filter",
+      "effect": "Fisheye filter",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Catch 100 fish",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
+      ],
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
+    },
+    {
+      "cheat": "Pixel Art",
+      "category": "Screen Filter",
+      "effect": "Pixelated filter",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Make $250,000 selling collectibles",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
+      ],
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
+    },
+    {
+      "cheat": "Hellscape",
+      "category": "Screen Filter",
+      "effect": "Turns the world red and orange with heat haze",
+      "status": "TBC",
+      "input": "TBC",
+      "unlock": "Steal 100 cop vehicles",
+      "requires_story_complete": true,
+      "source_urls": [
+        "https://www.eurogamer.net/all-gta-6-cheats",
+        "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
+      ],
+      "note": "Name, effect and unlock listed by Eurogamer, GameSpot and GamesRadar+; no outlet has published the input yet."
     }
-  ]
+  ],
+  "sources": {
+    "Eurogamer": "https://www.eurogamer.net/all-gta-6-cheats",
+    "eurogamer_news": "https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story",
+    "Dexerto": "https://www.dexerto.com/wikis/gta-6/cheat-codes/",
+    "Polygon": "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+    "GameSpot": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+    "GamesRadar+": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+    "PC Gamer": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+    "VICE": "https://www.vice.com/en/article/gta-6-cheat-codes-list/",
+    "Radio Times": "https://www.radiotimes.com/technology/gaming/gta-6-cheats-cheat-codes/",
+    "gamingroute": "https://gamingroute.com/gta-6-cheats/",
+    "Rockstar Newswire": "https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available",
+    "PlayStation Blog": "https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19/"
+  },
+  "spot_check": "On 21 November 2026, Australia/Brisbane (AEST), each of the 19 confirmed inputs was checked against at least two of the cited outlet pages (Eurogamer, Dexerto, Polygon, GameSpot, GamesRadar+ and/or PC Gamer, depending on which outlets that row cites). All 19 matched. None were downgraded to TBC. VICE and Radio Times pages cited on some rows were not re-fetched in this spot-check."
 }
