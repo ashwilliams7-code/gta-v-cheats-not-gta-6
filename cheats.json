@@ -1,0 +1,666 @@
+{
+  "title": "GTA 6 cheat codes? The GTA V codes rumoured to carry over",
+  "disclaimer": "Rockstar Games has not confirmed any Grand Theft Auto VI cheat codes. The entries below are Grand Theft Auto V single-player (Story Mode) cheats, compiled from IGN and GameSpot and cross-checked against each other. They are not confirmed to work in GTA 6. In GTA V they temporarily disable achievements and trophies for the current session (Rockstar Support). They do not work in GTA Online. This compilation is not affiliated with, endorsed by, or associated with Rockstar Games or Take-Two Interactive. Rockstar Support does not publish a public list of the codes themselves.",
+  "scope": "Single-player Story Mode cheat codes only: PC typed words, in-game phone numbers, and PlayStation / Xbox button combos where a cited source gives them. No hacks, trainers, mod menus, money glitches, downloads, or online/multiplayer exploits.",
+  "counts": {
+    "included": 33,
+    "dropped": 5,
+    "note": "Instagram and some round-ups say '35 codes'. This file includes 33 cheats that IGN and GameSpot both confirm at least in part. Three extras often used to reach 35 (BMX, the JRTALENT Director Mode code, and IGN's 'random explosion' number) could not be cross-checked and were dropped."
+  },
+  "sources": {
+    "rockstar_support": {
+      "role": "Official policy only — Rockstar Support does not publish a public list of GTA V cheat codes. These articles confirm that using cheats temporarily disables achievements, that saving is still allowed, and that unofficial codes are unsupported.",
+      "urls": [
+        {
+          "id": "rs-achievements",
+          "title": "Information about saving and achievements while using GTA V cheat codes",
+          "url": "https://support.rockstargames.com/articles/4ewFY12QOE4O7V1uWDEekt",
+          "updated": "2024-04-28",
+          "use": "Saving is allowed when cheats are enabled; achievements are temporarily disabled. Reloading a save or rebooting resets cheats. Some cheats are unavailable in certain situations ('Cheat Denied'). Starting a mission disables off-mission cheats."
+        },
+        {
+          "id": "rs-issues",
+          "title": "Issues after using Cheat Codes",
+          "url": "https://support.rockstargames.com/articles/6sa5xpe2WSuHzecJut4tAZ/issues-after-using-cheat-codes",
+          "updated": "2024-01-09",
+          "use": "Rockstar says that unless a code was given in-game or in the manual, it is unofficial and cannot be supported. Recommends not saving after using cheats."
+        }
+      ]
+    },
+    "code_lists": [
+      {
+        "id": "ign-wiki",
+        "title": "All GTA 5 Cheat Codes and Secrets For PC and Console — IGN",
+        "url": "https://www.ign.com/wikis/gta-5/All_GTA_5_Cheat_Codes_and_Secrets_For_PC_and_Console",
+        "updated": "2026-06-23",
+        "use": "Primary code list for this compilation, including PlayStation and Xbox combos, PC words, phone numbers, and how-to-enter steps."
+      },
+      {
+        "id": "gamespot",
+        "title": "GTA 5 Cheats And Secrets For PS5, Xbox, And PC — GameSpot",
+        "url": "https://www.gamespot.com/articles/gta-5-cheats-and-secrets-for-ps4-xbox-one-and-pc/1100-6414789/",
+        "updated": "2023-07-05",
+        "use": "Cross-check for every included code. Used as the sole source for a few PC words and phone numbers that IGN lists only as button combos, and for Super Jump's phone number."
+      },
+      {
+        "id": "ign-article",
+        "title": "Full List of GTA 5 Cheats on PC, PlayStation, and Xbox — IGN",
+        "url": "https://www.ign.com/articles/gta-5-cheats-pc-playstation-xbox",
+        "updated": "2024-06-12",
+        "use": "Overview article that points to the IGN wiki list. Does not itself tabulate every code."
+      }
+    ],
+    "prompting_post": {
+      "id": "instagram",
+      "title": "Instagram post claiming 35 circulating 'GTA 6' cheat codes",
+      "url": "https://www.instagram.com/p/Df7yp01keMq/",
+      "use": "The post that prompted this compilation. It states that Rockstar has not officially confirmed any GTA 6 codes, and that the rumoured list includes existing GTA V codes such as PAINKILLER, BUZZOFF and COMET. It is not used as a source for any code, combo or phone number."
+    }
+  },
+  "how_to_enter": {
+    "general": [
+      "Story Mode / single-player only. These codes do not work in GTA Online.",
+      "Using any cheat temporarily disables achievements and trophies for the current session (Rockstar Support). Reloading a save or restarting the game turns that restriction off.",
+      "Do not pause the game while entering a button combo. Use the D-pad for directions, and enter the sequence fairly quickly. A confirmation appears above the map if it worked."
+    ],
+    "pc": "Press the tilde key (~; on some UK keyboards, ¬) to open the cheat console, type the PC word in capitals, and press Enter.",
+    "phone": "Open the in-game phone (Up arrow or Up on the D-pad), open Contacts, open the keypad, dial the 1-999 number and call it. You can press * to redial the last number (IGN).",
+    "playstation": "Enter the PlayStation button combo during gameplay with a DualShock or DualSense controller. Sequences are the same on PS3, PS4 and PS5 according to IGN.",
+    "xbox": "Enter the Xbox button combo during gameplay. Sequences are the same on Xbox 360, Xbox One and Xbox Series X|S according to IGN."
+  },
+  "dropped": [
+    {
+      "effect": "Spawn BMX",
+      "pc_code": "BANDIT",
+      "phone": "1-999-226-348",
+      "reason": "Listed on IGN (PC word BANDIT, phone 1-999-226-348, and PlayStation/Xbox combos) but not on GameSpot. Left out because it could not be cross-checked.",
+      "listed_by": [
+        "ign-wiki"
+      ]
+    },
+    {
+      "effect": "Director Mode (typed/phone cheat)",
+      "pc_code": "JRTALENT",
+      "phone": "1-999-5782-5368",
+      "reason": "GameSpot lists JRTALENT / 1-999-5782-5368 with no button combo. IGN does not list this as a cheat code; it documents Director Mode as an Interaction-menu option (M / Touchpad / View), which is not a cheat code. Left out of the code list.",
+      "listed_by": [
+        "gamespot"
+      ]
+    },
+    {
+      "effect": "Random explosion",
+      "pc_code": null,
+      "phone": "1-999-367-3767",
+      "reason": "Appears only on IGN's phone list, with no PC word and no button combo. GameSpot does not list it. Left out because it could not be cross-checked.",
+      "listed_by": [
+        "ign-wiki"
+      ]
+    },
+    {
+      "effect": "Infinite money / money cheats, trainers, mod menus, GTA Online exploits",
+      "pc_code": null,
+      "phone": null,
+      "reason": "IGN states there is no infinite money cheat and that Rockstar wants players to earn money in Story Mode. GameSpot's list also has no money cheat. These are not official single-player cheat codes and were never in scope.",
+      "listed_by": []
+    },
+    {
+      "effect": "Any GTA 6-only or 'confirmed GTA 6' codes",
+      "pc_code": null,
+      "phone": null,
+      "reason": "Rockstar has not confirmed any Grand Theft Auto VI cheat codes. The Instagram post that prompted this list says the circulating 'GTA 6' codes (including PAINKILLER, BUZZOFF and COMET) are existing GTA V codes.",
+      "listed_by": []
+    }
+  ],
+  "cheats": [
+    {
+      "id": "invincibility",
+      "category": "player",
+      "effect": "Invincibility for 5 minutes",
+      "pc_code": "PAINKILLER",
+      "phone": "1-999-724-654-5537",
+      "playstation": "Right, X, Right, Left, Right, R1, Right, Left, X, Triangle",
+      "xbox": "Right, A, Right, Left, Right, RB, Right, Left, A, Y",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "Both sources agree on the digits 7246545537; hyphenation differs (IGN 724-654-5537, GameSpot 7246-545-537).",
+        "The 5-minute duration is from GameSpot ('Invincibility (For 5 Minutes)'); re-enter to renew. The cited IGN wiki page does not state a duration."
+      ],
+      "phone_digits": "19997246545537"
+    },
+    {
+      "id": "max-health-armor",
+      "category": "player",
+      "effect": "Max health and armor",
+      "pc_code": "TURTLE",
+      "phone": "1-999-887-853",
+      "playstation": "Circle, L1, Triangle, R2, X, Square, Circle, Right, Square, L1, L1, L1",
+      "xbox": "B, LB, Y, RT, A, X, B, Right, X, LB, LB, LB",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [],
+      "phone_digits": "1999887853"
+    },
+    {
+      "id": "recharge-special",
+      "category": "player",
+      "effect": "Recharge special ability",
+      "pc_code": "POWERUP",
+      "phone": "1-999-769-3787",
+      "playstation": "X, X, Square, R1, L1, X, Right, Left, X",
+      "xbox": "A, A, X, RB, LB, A, Right, Left, A",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [],
+      "phone_digits": "19997693787"
+    },
+    {
+      "id": "raise-wanted",
+      "category": "wanted",
+      "effect": "Raise wanted level",
+      "pc_code": "FUGITIVE",
+      "phone": "1-999-3844-8483",
+      "playstation": "R1, R1, Circle, R2, Left, Right, Left, Right, Left, Right",
+      "xbox": "RB, RB, B, RT, Left, Right, Left, Right, Left, Right",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [],
+      "phone_digits": "199938448483"
+    },
+    {
+      "id": "lower-wanted",
+      "category": "wanted",
+      "effect": "Lower wanted level",
+      "pc_code": "LAWYERUP",
+      "phone": "1-999-5299-3787",
+      "playstation": "R1, R1, Circle, R2, Right, Left, Right, Left, Right, Left",
+      "xbox": "RB, RB, B, RT, Right, Left, Right, Left, Right, Left",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [],
+      "phone_digits": "199952993787"
+    },
+    {
+      "id": "fast-run",
+      "category": "player",
+      "effect": "Fast run",
+      "pc_code": "CATCHME",
+      "phone": "1-999-228-8463",
+      "playstation": "Triangle, Left, Right, Right, L2, L1, Square",
+      "xbox": "Y, Left, Right, Right, LT, LB, X",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "IGN lists 1-999-228-8463 and GameSpot lists 1-999-2288-463; the digits match (2288463).",
+        "Those digits do not match the phone-keypad spelling of CATCHME (2282463). This file uses the number both sources printed, not a keypad 'correction'."
+      ],
+      "phone_digits": "19992288463"
+    },
+    {
+      "id": "fast-swim",
+      "category": "player",
+      "effect": "Fast swim",
+      "pc_code": "GOTGILLS",
+      "phone": "1-999-4684-4557",
+      "playstation": "Left, Left, L1, Right, Right, R2, Left, L2, Right",
+      "xbox": "Left, Left, LB, Right, Right, RT, Left, LT, Right",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "IGN's 'best cheats' blurb hyphenates this as 1-999-468-44557; the digits are the same as the phone-list entry 1-999-4684-4557."
+      ],
+      "phone_digits": "199946844557"
+    },
+    {
+      "id": "super-jump",
+      "category": "player",
+      "effect": "Super jump",
+      "pc_code": "HOPTOIT",
+      "phone": "1-999-467-8648",
+      "playstation": "Left, Left, Triangle, Triangle, Right, Right, Left, Right, Square, R1, R2",
+      "xbox": "Left, Left, Y, Y, Right, Right, Left, Right, X, RB, RT",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "PC word and button combos are on both IGN and GameSpot. The phone number is from GameSpot only; IGN's phone list omits Super Jump."
+      ],
+      "phone_digits": "19994678648"
+    },
+    {
+      "id": "parachute",
+      "category": "player",
+      "effect": "Give parachute",
+      "pc_code": "SKYDIVE",
+      "phone": "1-999-759-3483",
+      "playstation": "Left, Right, L1, L2, R1, R2, R2, Left, Left, Right, L1",
+      "xbox": "Left, Right, LB, LT, RB, RT, RT, Left, Left, Right, LB",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [],
+      "phone_digits": "19997593483"
+    },
+    {
+      "id": "skyfall",
+      "category": "player",
+      "effect": "Skyfall — drop the player from high altitude",
+      "pc_code": "SKYFALL",
+      "phone": "1-999-759-3255",
+      "playstation": "L1, L2, R1, R2, Left, Right, Left, Right, L1, L2, R1, R2, Left, Right, Left, Right",
+      "xbox": "LB, LT, RB, RT, Left, Right, Left, Right, LB, LT, RB, RT, Left, Right, Left, Right",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [],
+      "phone_digits": "19997593255"
+    },
+    {
+      "id": "drunk",
+      "category": "player",
+      "effect": "Drunk mode",
+      "pc_code": "LIQUOR",
+      "phone": "1-999-547-861",
+      "playstation": "Triangle, Right, Right, Left, Right, Square, Circle, Left",
+      "xbox": "Y, Right, Right, Left, Right, X, B, Left",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "Both sources print 1-999-547-861. That does not match the keypad spelling of LIQUOR (547867). This file uses the sourced number, not a keypad 'correction'."
+      ],
+      "phone_digits": "1999547861"
+    },
+    {
+      "id": "weapons",
+      "category": "weapons",
+      "effect": "Weapons and extra ammo (pistol, sawed-off shotgun, SMG, assault rifle, sniper rifle, grenade, RPG, knife)",
+      "pc_code": "TOOLUP",
+      "phone": "1-999-866-587",
+      "playstation": "Triangle, R2, Left, L1, X, Right, Triangle, Down, Square, L1, L1, L1",
+      "xbox": "Y, RT, Left, LB, A, Right, Y, Down, X, LB, LB, LB",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "PlayStation and Xbox combos are on both IGN and GameSpot. The PC word TOOLUP and phone number 1-999-866-587 are from GameSpot only; IGN lists the button cheat as 'Give Weapons' but omits the PC word and phone number."
+      ],
+      "phone_digits": "1999866587"
+    },
+    {
+      "id": "explosive-bullets",
+      "category": "weapons",
+      "effect": "Explosive bullets",
+      "pc_code": "HIGHEX",
+      "phone": "1-999-444-439",
+      "playstation": "Right, Square, X, Left, R1, R2, Left, Right, Right, L1, L1, L1",
+      "xbox": "Right, X, A, Left, RB, RT, Left, Right, Right, LB, LB, LB",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "IGN labels this 'Bang Bang (Explosive Bullets)'."
+      ],
+      "phone_digits": "1999444439"
+    },
+    {
+      "id": "incendiary-bullets",
+      "category": "weapons",
+      "effect": "Incendiary / flaming bullets",
+      "pc_code": "INCENDIARY",
+      "phone": "1-999-462-363-4279",
+      "playstation": "L1, R1, Square, R1, Left, R2, R1, Left, Square, Right, L1, L1",
+      "xbox": "LB, RB, X, RB, Left, RT, RB, Left, X, Right, LB, LB",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "IGN prints the full number 1-999-462-363-4279 (keypad spelling of INCENDIARY). GameSpot writes 1-999-462-INCENDIARY but its numeric form 1-999-363-4279 drops the leading 462. This file uses IGN's complete digit string, which matches GameSpot's word form."
+      ],
+      "phone_digits": "19994623634279"
+    },
+    {
+      "id": "explosive-melee",
+      "category": "weapons",
+      "effect": "Explosive melee attacks",
+      "pc_code": "HOTHANDS",
+      "phone": "1-999-4684-2637",
+      "playstation": "Right, Left, X, Triangle, R1, Circle, Circle, Circle, L2",
+      "xbox": "Right, Left, A, Y, RB, B, B, B, LT",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [],
+      "phone_digits": "199946842637"
+    },
+    {
+      "id": "moon-gravity",
+      "category": "world",
+      "effect": "Moon gravity",
+      "pc_code": "FLOATER",
+      "phone": "1-999-356-2837",
+      "playstation": "Left, Left, L1, R1, L1, Right, Left, L1, Left",
+      "xbox": "Left, Left, LB, RB, LB, Right, Left, LB, Left",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [],
+      "phone_digits": "19993562837"
+    },
+    {
+      "id": "slow-motion",
+      "category": "world",
+      "effect": "Slow motion",
+      "pc_code": "SLOWMO",
+      "phone": "1-999-756-966",
+      "playstation": "Triangle, Left, Right, Right, Square, R2, R1",
+      "xbox": "Y, Left, Right, Right, X, RT, RB",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "IGN's phone list prints this twice with different hyphenation (1-999-756-966 and 1-999-7569-66); the digits are the same."
+      ],
+      "phone_digits": "1999756966"
+    },
+    {
+      "id": "slow-motion-aim",
+      "category": "world",
+      "effect": "Slow-motion aim",
+      "pc_code": "DEADEYE",
+      "phone": "1-999-332-3393",
+      "playstation": "Square, L2, R1, Triangle, Left, Square, L2, Right, X",
+      "xbox": "X, LT, RB, Y, Left, X, LT, Right, A",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "IGN 1-999-332-3393 and GameSpot 1-999-3323-393 are the same digits (3323393)."
+      ],
+      "phone_digits": "19993323393"
+    },
+    {
+      "id": "change-weather",
+      "category": "world",
+      "effect": "Change weather (enter multiple times to cycle)",
+      "pc_code": "MAKEITRAIN",
+      "phone": "1-999-625-348-7246",
+      "playstation": "R2, X, L1, L1, L2, L2, L2, Square",
+      "xbox": "RT, A, LB, LB, LT, LT, LT, X",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "IGN prints the full number 1-999-625-348-7246 (keypad spelling of MAKEITRAIN). GameSpot writes 1-999-625-MAKEITRAIN but its numeric form 1-999-348-7246 drops the leading 625. This file uses IGN's complete digit string, which matches GameSpot's word form."
+      ],
+      "phone_digits": "19996253487246"
+    },
+    {
+      "id": "slippery-cars",
+      "category": "world",
+      "effect": "Slippery / slidey cars",
+      "pc_code": "SNOWDAY",
+      "phone": "1-999-7669-329",
+      "playstation": "Triangle, R1, R1, Left, R1, L1, R2, L1",
+      "xbox": "Y, RB, RB, Left, RB, LB, RT, LB",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "Phone numbers disagree by one digit. GameSpot: 1-999-7669-329 (7669329), which matches the keypad spelling of SNOWDAY. IGN: 1-999-766-932 (766932), which looks one digit short.",
+        "PC word and button combos agree on both sources. The phone field uses GameSpot's number; do not treat IGN's shorter form as confirmed."
+      ],
+      "phone_digits": "19997669329"
+    },
+    {
+      "id": "spawn-buzzard",
+      "category": "vehicles",
+      "effect": "Spawn Buzzard attack helicopter",
+      "pc_code": "BUZZOFF",
+      "phone": "1-999-289-9633",
+      "playstation": "Circle, Circle, L1, Circle, Circle, Circle, L1, L2, R1, Triangle, Circle, Triangle",
+      "xbox": "B, B, LB, B, B, B, LB, LT, RB, Y, B, Y",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "IGN 1-999-289-9633 and GameSpot 1-999-2899-633 are the same digits (2899633)."
+      ],
+      "phone_digits": "19992899633"
+    },
+    {
+      "id": "spawn-stunt-plane",
+      "category": "vehicles",
+      "effect": "Spawn stunt plane",
+      "pc_code": "BARNSTORM",
+      "phone": "1-999-227-678-676",
+      "playstation": "Circle, Right, L1, L2, Left, R1, L1, L1, Left, Left, X, Triangle",
+      "xbox": "B, Right, LB, LT, Left, RB, LB, LB, Left, Left, A, Y",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "IGN 1-999-2276-78676 and GameSpot 1-999-227-678-676 are the same digits (227678676)."
+      ],
+      "phone_digits": "1999227678676"
+    },
+    {
+      "id": "spawn-duster",
+      "category": "vehicles",
+      "effect": "Spawn Duster crop plane",
+      "pc_code": "FLYSPRAY",
+      "phone": "1-999-3597-7729",
+      "playstation": "Right, Left, R1, R1, R1, Left, Triangle, Triangle, X, Circle, L1, L1",
+      "xbox": "Right, Left, RB, RB, RB, Left, Y, Y, A, B, LB, LB",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "Button combos are on both IGN and GameSpot. The PC word FLYSPRAY and phone number 1-999-3597-7729 are from GameSpot only; IGN lists 'Spawn Duster' buttons but omits the PC word and phone number."
+      ],
+      "phone_digits": "199935977729"
+    },
+    {
+      "id": "spawn-dodo",
+      "category": "vehicles",
+      "effect": "Spawn Dodo seaplane",
+      "pc_code": "EXTINCT",
+      "phone": "1-999-398-4628",
+      "playstation": null,
+      "xbox": null,
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "Phone number is on both IGN and GameSpot. The PC word EXTINCT is from GameSpot only; IGN's PC list omits it. Neither source gives a PlayStation or Xbox button combo (later-version spawn; phone/PC only)."
+      ],
+      "phone_digits": "19993984628"
+    },
+    {
+      "id": "spawn-kraken",
+      "category": "vehicles",
+      "effect": "Spawn Kraken sub",
+      "pc_code": "BUBBLES",
+      "phone": "1-999-282-2537",
+      "playstation": null,
+      "xbox": null,
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "Phone number is on both IGN and GameSpot. The PC word BUBBLES is from GameSpot only; IGN's PC list omits it. Neither source gives a PlayStation or Xbox button combo."
+      ],
+      "phone_digits": "19992822537"
+    },
+    {
+      "id": "spawn-duke",
+      "category": "vehicles",
+      "effect": "Spawn Duke O'Death",
+      "pc_code": "DEATHCAR",
+      "phone": "1-999-3328-4227",
+      "playstation": null,
+      "xbox": null,
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "Phone number is on both IGN and GameSpot. The PC word DEATHCAR is from GameSpot only; IGN's PC list omits it. Neither source gives a PlayStation or Xbox button combo."
+      ],
+      "phone_digits": "199933284227"
+    },
+    {
+      "id": "spawn-comet",
+      "category": "vehicles",
+      "effect": "Spawn Comet sports car",
+      "pc_code": "COMET",
+      "phone": "1-999-266-38",
+      "playstation": "R1, Circle, R2, Right, L1, L2, X, X, Square, R1",
+      "xbox": "RB, B, RT, Right, LB, LT, A, A, X, RB",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [],
+      "phone_digits": "199926638"
+    },
+    {
+      "id": "spawn-rapid-gt",
+      "category": "vehicles",
+      "effect": "Spawn Rapid GT sports car",
+      "pc_code": "RAPIDGT",
+      "phone": "1-999-727-4348",
+      "playstation": null,
+      "xbox": null,
+      "playstation_ign": "R2, L1, Circle, Right, L1, R1, Right, Left, Circle, R2",
+      "xbox_ign": "RT, LB, B, Right, LB, RB, Right, Left, B, RT",
+      "playstation_gamespot": "R2, R2, L1, Circle, Right, L1, R1, Right, Left, Circle, R2",
+      "xbox_gamespot": "RT, RT, LB, B, Right, LB, RB, Right, Left, B, RT",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "PC word and phone number agree on both sources.",
+        "Button combos disagree: GameSpot starts with an extra R2 (PlayStation) / RT (Xbox) that IGN does not have. This file does not pick a winner; both sequences are stored in playstation_ign / playstation_gamespot and xbox_ign / xbox_gamespot."
+      ],
+      "phone_digits": "19997274348"
+    },
+    {
+      "id": "spawn-limo",
+      "category": "vehicles",
+      "effect": "Spawn limo",
+      "pc_code": "VINEWOOD",
+      "phone": "1-999-846-39663",
+      "playstation": "R2, Right, L2, Left, Left, R1, L1, Circle, Right",
+      "xbox": "RT, Right, LT, Left, Left, RB, LB, B, Right",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "IGN 1-999-846-39663 and GameSpot 1-999-8463-9663 are the same digits (84639663)."
+      ],
+      "phone_digits": "199984639663"
+    },
+    {
+      "id": "spawn-trashmaster",
+      "category": "vehicles",
+      "effect": "Spawn Trashmaster",
+      "pc_code": "TRASHED",
+      "phone": "1-999-8727-433",
+      "playstation": "Circle, R1, Circle, R1, Left, Left, R1, L1, Circle, Right",
+      "xbox": "B, RB, B, RB, Left, Left, RB, LB, B, Right",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "Phone numbers disagree by one digit. GameSpot: 1-999-8727-433 (8727433), which matches the keypad spelling of TRASHED. IGN: 1-999-872-433 (872433), which looks one digit short.",
+        "PC word and button combos agree on both sources. The phone field uses GameSpot's number; do not treat IGN's shorter form as confirmed."
+      ],
+      "phone_digits": "19998727433"
+    },
+    {
+      "id": "spawn-caddy",
+      "category": "vehicles",
+      "effect": "Spawn Caddy golf cart",
+      "pc_code": "HOLEIN1",
+      "phone": "1-999-4653-461",
+      "playstation": "Circle, L1, Left, R1, L2, X, R1, L1, Circle, X",
+      "xbox": "B, LB, Left, RB, LT, A, RB, LB, B, A",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "Button combos are on both IGN and GameSpot (IGN: 'Spawn Caddy'). The PC word HOLEIN1 and phone number 1-999-4653-461 are from GameSpot only; IGN omits the PC word and phone number."
+      ],
+      "phone_digits": "19994653461"
+    },
+    {
+      "id": "spawn-sanchez",
+      "category": "vehicles",
+      "effect": "Spawn Sanchez dirt bike",
+      "pc_code": "OFFROAD",
+      "phone": "1-999-633-7623",
+      "playstation": "Circle, X, L1, Circle, Circle, L1, Circle, R1, R2, L2, L1, L1",
+      "xbox": "B, A, LB, B, B, LB, B, RB, RT, LT, LB, LB",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [
+        "GameSpot's phone line is typo-broken as '1-999- [1-999-633-7623]'; the numeric form matches IGN's 1-999-633-7623."
+      ],
+      "phone_digits": "19996337623"
+    },
+    {
+      "id": "spawn-pcj",
+      "category": "vehicles",
+      "effect": "Spawn PCJ-600 motorcycle",
+      "pc_code": "ROCKET",
+      "phone": "1-999-762-538",
+      "playstation": "R1, Right, Left, Right, R2, Left, Right, Square, Right, L2, L1, L1",
+      "xbox": "RB, Right, Left, Right, RT, Left, Right, X, Right, LT, LB, LB",
+      "sources": [
+        "ign-wiki",
+        "gamespot"
+      ],
+      "notes": [],
+      "phone_digits": "1999762538"
+    }
+  ]
+}
