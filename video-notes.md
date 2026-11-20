@@ -1,8 +1,6 @@
 # Video notes — ~45s vertical reel
 
-Suggested repo name: **`gta-v-cheats-rumoured-for-gta-6`**
-
-Private repo (do not make public until Ash says yes): https://github.com/ashwilliams7-code/gta-v-cheats-rumoured-for-gta-6
+Repo: **`gta-v-cheats-not-gta-6`** — https://github.com/ashwilliams7-code/gta-v-cheats-not-gta-6
 
 ## On-screen disclaimer (must appear early, not only in the caption)
 
@@ -16,7 +14,7 @@ Prompting post (not a code source): https://www.instagram.com/p/Df7yp01keMq/
 
 | Time | Picture | On-screen / VO |
 | --- | --- | --- |
-| 0:00–0:03 | Bold title card, then cut into Skyfall freefall | "Those 35 GTA 6 cheat codes? They're GTA V codes. Rockstar hasn't confirmed any for GTA 6." |
+| 0:00–0:03 | Bold title card, then cut into Skyfall freefall | "Those GTA 6 cheats going round? They're GTA V codes. Rockstar hasn't confirmed any for GTA 6." |
 | 0:03–0:06 | "Save this" + the repo name (no link in the Instagram/TikTok caption later; the repo URL belongs on screen and in the description where the platform allows it) | "Here are the most visual ones, with the PC word and the phone number." |
 | 0:06–0:42 | Nine rapid visual beats, ~4s each (see the list below). Show the effect first, then a lower-third with **effect / PC word / phone number**. Keep button combos on a second line or a flash card; they are too long to read if you only have a second. | Read the PC word out loud. Don't try to read every button combo. |
 | 0:42–0:45 | End card: full 9-code list + "Story Mode only · achievements off · not confirmed for GTA 6" + repo URL | "Full list, every platform, in the repo." |
@@ -173,8 +171,6 @@ These are also in `cheats.json` and were confirmed by both sources. They are sli
 - No YouTube links, and no channel or personal branding on the video or in the repo-facing copy.
 
 ## Caption / title notes (for whoever posts it)
-
-This is a new kind of post, so it still needs an explicit yes before it goes live. Saturday daytime is already taken by the Friday B / carousel / Friday C queue.
 
 Suggested YouTube title shape: `GTA 6 cheat codes? These are the GTA V codes people are circulating`
 
